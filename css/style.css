@@ -6,11 +6,11 @@
 
 .header {
     background-color: #252B48;
-    position: fixed;
-top: 0px;
-left: 0px;
-z-index: 999;
-width: 100%;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    width: 100%;
 }
 
 .nav {
@@ -38,8 +38,6 @@ width: 100%;
     list-style: none;
 }
 
-
-
 .menu_container ul li a {
     text-decoration: none;
     font-size: 17px;
@@ -52,6 +50,42 @@ width: 100%;
     color: white;
 }
 
+.people_toggle{
+    position: absolute;
+    top: 55px;
+    /* right: 90px; */
+    background-color: #252B48;
+    display: none;
+    padding-top: 25px;
+}
+
+.people_toggle ul{
+    padding: 0px;
+    /* padding-top: 25px; */
+    /* padding: 0px 9px; */
+    padding-bottom:6px;
+    padding-right: 10px;
+    /* border: 1px solid red; */
+    
+}
+
+.people_toggle ul li{
+    margin: 5px 0px;
+    padding: 0px 6px
+    
+}
+
+.people_toggle ul li:hover a{
+    color:beige;
+}
+
+.people_toggle ul li a{
+    font-size: 14px;
+}
+
+.menu_container ul li:hover .people_toggle{
+    display: block;
+}
 
 /* sidebar menu------ */
 
@@ -61,26 +95,28 @@ width: 100%;
     position: absolute;
     top: 75px;
     right: 0px;
-    height: 45vh;
+    height: 55vh;
     width: 40vw;
-    background-color: #9be328;
+    background-color: rgba(0, 0, 0, 0.5 );
     display: none;
     z-index: 999;
 }
 
 .sidebar_menu {
-display: flex;
-flex-direction: column;
-padding: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    padding-left:10px ;
 }
 
-.sidebar_menu li{
+.sidebar_menu li {
     list-style: none;
     margin: 10px;
 }
 
-.sidebar_menu li a{
-text-decoration: none;
+.sidebar_menu li a {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -123,8 +159,9 @@ text-decoration: none;
 }
 
 
-.about_container{
-    background-color: #f7f7f7;;
+.about_container {
+    background-color: #f7f7f7;
+    ;
 }
 
 .banner_text p {
@@ -181,8 +218,9 @@ text-decoration: none;
     /* overflow: hidden; */
     position: relative;
 }
-.center img{
-    width:217px!important;
+
+.center img {
+    width: 217px !important;
 }
 
 
@@ -335,8 +373,8 @@ text-decoration: none;
     margin: 0px;
 }
 
-.content_center h3{
-    font-size:29px;
+.content_center h3 {
+    font-size: 29px;
 }
 
 .light_text {
@@ -434,13 +472,13 @@ text-decoration: none;
 }
 
 
-.stay_conn{
+.stay_conn {
     display: flex;
-   
+
     flex-wrap: wrap;
 }
 
-.stay_conn input{
+.stay_conn input {
     /* width: 150px; */
     height: 35px;
     margin: 0px 20px;
@@ -448,13 +486,13 @@ text-decoration: none;
 
 }
 
-#stay_btn{
-    background-color: #252B48!important;
+#stay_btn {
+    background-color: #252B48 !important;
     color: white;
     padding: 3px 19px;
 }
 
-.color-white{
+.color-white {
     background-color: whitesmoke;
     /* margin-bottom: -90px; */
     /* z-index: 5555; */
@@ -463,24 +501,71 @@ text-decoration: none;
 
 /* footer section start----- */
 
-.footer_section{
+.footer_section {
     background-color: #252B48;
     padding-top: 60px;
     /* z-index: -2; */
 }
 
-.footer_center h5{
+.footer_center h5 {
     color: white;
-    font-size: 17px ;
+    font-size: 17px;
 }
 
-.footer_center span{
+.footer_center span {
     margin: 8px 6px;
 }
 
-.footer_center span i{
+.footer_center span i {
     font-size: 25px;
     color: white;
+}
+
+
+/* ------team section------ */
+
+.team_section {
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.team_section .team_icon{
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 61%;
+    display: flex;
+    justify-content: space-evenly;
+    transition: all 0.3s linear;
+}
+
+.team_icon span{
+    margin: 0px 3px;
+}
+
+.team_icon span i{
+    font-size: 21px;
+    color: rgb(156, 181, 218);
+    cursor: pointer;
+}
+
+.team_icon span:hover i{
+    color: #7a83b3;
+}
+
+.team_section:hover .team_icon{
+    bottom: 10px;
+}
+
+.team_section img{
+    transition: all 0.3s linear;
+   
+}
+
+.team_section:hover img{
+    transform: scale(1.2);
 }
 
 
@@ -509,7 +594,7 @@ text-decoration: none;
     }
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
 
     .menu_container {
         position: absolute;
@@ -530,11 +615,11 @@ text-decoration: none;
         margin-top: 10px;
     }
 
-   
-}
 
-@media only screen and (min-width: 768px){
-    .sidebar{
+} */
+
+/* @media only screen and (min-width: 768px) {
+    .sidebar {
         display: none;
     }
-}
+} */

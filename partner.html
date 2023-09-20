@@ -19,34 +19,61 @@
 
     <div class="header">
         <div class="container">
-            <navbar class="nav ">
-
-
-                <div class="menu_container d-md-block menu_left">
-                    <ul class="d-flex p-0 m-0">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About </a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-
-                <a href="#" class="logo"><img src="img/logo.png"></a>
-
-                <div class="menu_container d-md-block menu_left">
-
-                    <div class="menu_container d-md-block menu_left">
-                        <ul class="d-flex p-0 m-0">
-                            <li><a href="#">partners</a></li>
-                            <li><a href="#">people </a></li>
-                            <li><a href="#">Services</a></li>
-
-                        </ul>
+          <navbar class="nav ">
+    
+    
+            <div class="menu_container d-md-block menu_left d-none">
+              <ul class="d-flex p-0 m-0">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About </a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+    
+            <a href="file:///C:/Users/gupta/Desktop/tiwari%20work/index.html" class="logo"><img src="img/logo.png"></a>
+    
+            <div class="menu_container d-md-block ">
+    
+              <div class="menu_container d-md-block d-none d-md-block">
+                <ul class="d-flex p-0 m-0">
+                  <li><a href="#">partners</a>
+    
+    
+                  </li>
+                  <li><a href="#">people </a>
+                    <div class="people_toggle">
+                      <ul>
+                        <li><a href="file:///C:/Users/gupta/Desktop/tiwari%20work/people.html">Gopathi Manideep</a></li>
+                        <li><a href="file:///C:/Users/gupta/Desktop/tiwari%20work/people.html">Yogesh Tiwari</a></li>
+                        <li><a href="file:///C:/Users/gupta/Desktop/tiwari%20work/people.html">Gopathi Manideep</a></li>
+                      </ul>
                     </div>
-
-                    <div class="toggle d-md-none"><i class="fa-solid fa-bars"></i></div>
-            </navbar>
+                  </li>
+                  <li><a href="#">Services</a></li>
+    
+                </ul>
+              </div>
+            </div>
+            <span class="toggle d-md-none"><i class="fa-solid fa-bars"></i></span>
+          </navbar>
         </div>
-    </div>
+    
+      </div>
+
+
+
+
+      <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"></script>
+  
+  
+    <script>
+      $(document).ready(function () {
+        $(".toggle").click(function () {
+          $(".sidebar").toggle("slow");
+        });
+      });
+    </script>
     
 </body>
 </html>
