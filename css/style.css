@@ -126,9 +126,9 @@
 
 #particles-js {
 
-    /* height: 100vh; */
+    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-    /* background-size: cover; */
+    background-size: cover;
     /* background-position: center; */
 
 }
@@ -468,7 +468,7 @@
 
 .color_white p {
     color: white;
-    font-size: 19px;
+    font-size: 17px;
 }
 
 
@@ -582,7 +582,6 @@
 
 @media only screen and (max-width: 992px) {
 
-
     .workprosess_list {
         display: inline-block;
     }
@@ -618,8 +617,12 @@
 
 } */
 
-/* @media only screen and (min-width: 768px) {
-    .sidebar {
-        display: none;
-    }
-} */
+ @media only screen and (max-width: 768px) {
+ .about_text h{
+    font-size: 29px;
+ }
+
+ .left_conn .left{
+    text-align: left;
+ }
+} 
