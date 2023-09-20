@@ -24,8 +24,8 @@
 
         <div class="menu_container d-md-block menu_left d-none">
           <ul class="d-flex p-0 m-0">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About </a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About </a></li>
 
 
             <li><a href="contect.html">Contact Us</a></li>
@@ -37,7 +37,7 @@
           <div class="menu_container d-md-block d-none d-md-block">
             <ul class="d-flex p-0 m-0">
 
-              <li><a href="partner.html">partner  </li>
+              <li><a href="partner.html">partner </li>
               <li><a href="people.html">people </a>
                 <div class="people_toggle">
                   <ul>
@@ -61,12 +61,12 @@
 
   <div class="sidebar d-md-none ">
     <ul class="sidebar_menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About us</a></li>
-      <li><a href="contect.html">Contact </a></li>
-      <li><a href="partner.html">Partner</a></li>
-      <li><a href="people.html">People</a></li>
-      <li><a href="services.html">Services</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Contact </a></li>
+      <li><a href="#">Partner</a></li>
+      <li><a href="#">People</a></li>
+      <li><a href="#">Services</a></li>
     </ul>
   </div>
 
@@ -87,8 +87,8 @@
           <img src="img/bg3.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
-      
-    
+
+
     </div>
 
   </div>
@@ -196,7 +196,7 @@
   <section class="allmisstion_page">
     <div class="container ">
       <div class="content_center p-3  text-center">
-       <img src="img/hod1.jpeg" class="img-fluid">
+        <img src="img/hod1.jpeg" class="img-fluid">
       </div>
     </div>
 
@@ -257,7 +257,8 @@
         <div class="row container mx-auto">
           <div class="col-3">
             <div class="parallax_1 text-center color_white ">
-              <h1>2023</h1>
+              <h class="counter">418</h>
+              <h>+</h>
               <p>Since We Started</p>
             </div>
           </div>
@@ -391,6 +392,18 @@
   <!-- <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3744450/particles.min.js"></script> -->
   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
     crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+
+  <script>
+    $(document).ready(function () {
+      $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+      });
+    });
+  </script>
 
 
   <script>
