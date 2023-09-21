@@ -109,7 +109,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .carousel-inner{
-    height: 600px;
+    height: 600px!important;
     margin-top: -75px;
 }
 
