@@ -138,6 +138,14 @@
       })
   
     </script>
+
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            $(".header").toggleClass('nav_bg_change', $(this).scrollTop() > 550);
+        })
+    })
+  </script>
 </body>
 
 </html>
