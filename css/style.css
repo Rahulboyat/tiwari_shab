@@ -69,7 +69,7 @@ font-family: 'Poppins', sans-serif;
     display:none;
     /* right: 90px; */
     background-color: #252B48;
-    display: none;
+    display: none!important;
     padding-top: 25px;
 }
 
@@ -79,26 +79,31 @@ font-family: 'Poppins', sans-serif;
     /* padding: 0px 9px; */
     padding-bottom:6px;
     padding-right: 10px;
+    display:none!important;
     /* border: 1px solid red; */
     
 }
 
 .people_toggle ul li{
     margin: 5px 0px;
-    padding: 0px 6px
+    padding: 0px 6px;
+     display:none!important;
     
 }
 
 .people_toggle ul li:hover a{
     color:beige;
+     display:none!important;
 }
 
 .people_toggle ul li a{
     font-size: 14px;
+     display:none!important;
 }
 
 .menu_container ul li:hover .people_toggle{
     display: block;
+     display:none!important;
 }
 
 /* sidebar menu------ */
