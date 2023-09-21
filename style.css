@@ -66,47 +66,7 @@ font-family: 'Poppins', sans-serif;
     color: white;
 }
 
-.people_toggle{
-    position: absolute;
-    top: 55px;
-    /* right: 90px; */
-    background-color: #252B48;
-    display: none;
-    padding-top: 25px;
-}
-
-.people_toggle ul{
-    padding: 0px;
-    /* padding-top: 25px; */
-    /* padding: 0px 9px; */
-    padding-bottom:6px;
-    padding-right: 10px;
-    /* border: 1px solid red; */
-    
-}
-
-.people_toggle ul li{
-    margin: 5px 0px;
-    padding: 0px 6px
-    
-}
-
-.people_toggle ul li:hover a{
-    color:beige;
-}
-
-.people_toggle ul li a{
-    font-size: 14px;
-}
-
-.menu_container ul li:hover .people_toggle{
-    display: block;
-}
-
 /* sidebar menu------ */
-
-
-
 .sidebar {
     position: absolute;
     top: 75px;
