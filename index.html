@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -117,7 +118,7 @@
       <div class="container">
         <div class="row container mx-auto">
           <div class="col-md-6 my-auto">
-            <div class="about_text ">
+            <div class="about_text  wow animate__animated animate__zoomIn">
               <h> A Few Words About Us </h>
 
               <p>House of Dreams is an affordable housing planning company dedicated to providing affordable and
@@ -132,7 +133,7 @@
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-center">
-            <div class="about_img mx-auto mt-5">
+            <div class="about_img mx-auto mt-5 wow animate__animated animate__zoomIn ">
               <img src="img/about_img.jpeg" class="img-fluid">
             </div>
           </div>
@@ -195,7 +196,7 @@
 
   <section class="allmisstion_page">
     <div class="container ">
-      <div class="content_center p-3  text-center">
+      <div class="content_center p-3  text-center  wow animate__animated  animate__slideInDown">
         <img src="img/hod1.jpeg" class="img-fluid">
       </div>
     </div>
@@ -203,7 +204,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <div class="left_conn">
+          <div class="left_conn wow animate__animated animate__slideInLeft">
             <div class="left">
               <span class="icon"><i class="fa-solid fa-gear"></i></span>
               <h>About HOD</h>
@@ -224,14 +225,14 @@
         </div>
 
         <div class="col-md-4">
-          <div class="center  mx-auto">
+          <div class="center mx-auto wow animate__animated animate__zoomIn">
 
             <img src="img/1.png" class="img-fluid">
           </div>
         </div>
 
         <div class="col-md-4">
-          <div class="right">
+          <div class="right  wow animate__animated animate__slideInRight">
             <span class="icon"><i class="fa-solid fa-code"></i></span>
             <h>VISION</h>
             <p>The promising startup, HOD, is committed to addressing both current and emerging challenges in the
@@ -240,7 +241,7 @@
             </p>
           </div>
 
-          <div class="right">
+          <div class="right wow animate__animated animate__slideInRight">
             <span class="icon"><i class="fa-solid fa-folder"></i></span>
             <h>MISSION</h>
             <p>Individuals at HOD will have the chance to develop their prototypes and put them into action after
@@ -256,23 +257,22 @@
       <div class="container">
         <div class="row container mx-auto">
           <div class="col-3">
-            <div class="parallax_1 text-center color_white ">
+            <div class="parallax_1 text-center color_white wow animate__animated animate__zoomIn ">
               <h1 class="counter">2023</h1>
               <h>+</h>
               <p>Since We Started</p>
             </div>
           </div>
 
-
           <div class="col-6">
-            <div class="parallax_2 text-center color_white">
+            <div class="parallax_2 text-center color_white wow animate__animated animate__zoomIn">
               <p>We Accelerate performance by applying new age technology such as AR/VR and it's applications not only
                 to the prototypes but on the ideology of startups as well.</p>
             </div>
           </div>
 
           <div class="col-3">
-            <div class="parallax_3 text-center color_white">
+            <div class="parallax_3 text-center color_white wow animate__animated animate__zoomIn">
               <h1 class="counter">5</h1>
               <h>+</h>
               <p>Projects</p>
@@ -285,7 +285,7 @@
   </section>
 
 
-  <section class="stay_connected pt-5 pb-5">
+  <section class="stay_connected pt-5 pb-5 animate__animated animate__slideInUp">
     <div class="container color-white pt-5 pb-5 ">
       <form class=" stay_conn justify-content-center">
         <input type="text" id="name" placeholder="Name">
@@ -396,6 +396,20 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+
+    $(document).ready(function () {
+      new WOW().init({
+        once: true,
+        duration: 6000
+      });
+    })
+
+  </script>
 
   <script>
     $(document).ready(function () {

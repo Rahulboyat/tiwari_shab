@@ -617,7 +617,7 @@
 
 } */
 
- @media only screen and (max-width: 743px) {
+ @media only screen and (max-width: 768px) {
  .about_text h{
     font-size: 29px;
  }
