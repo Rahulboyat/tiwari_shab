@@ -29,6 +29,7 @@ font-family: 'Poppins', sans-serif;
 
 .w-100{
     /* margin-top: -74px; */
+    height:600px;
 }
 
 .nav_bg_change{
@@ -108,12 +109,12 @@ font-family: 'Poppins', sans-serif;
 }
 
 .carousel-inner{
-    height: 520px;
+    height: 600px;
     margin-top: -75px;
 }
 
 .carousel-item{
-    height:520px;
+    height:600px;
 }
 .carousel-item img {
     height: 100%;
