@@ -156,6 +156,13 @@ font-family: 'Poppins', sans-serif;
     margin-top: -75px;
 }
 
+.carousel-item{
+    height:520px;
+}
+.carousel-item img {
+    height: 100%;
+}
+
 
 
 
