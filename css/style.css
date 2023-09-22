@@ -569,15 +569,15 @@ font-family: 'Poppins', sans-serif;
 
 .footer_center h5 {
     color: white;
-    font-size: 17px;
+    font-size: 14px!important;
 }
 
 .footer_center span {
-    margin: 8px 6px;
+    margin: 8px 5px;
 }
 
 .footer_center span i {
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
 
