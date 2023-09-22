@@ -523,6 +523,7 @@ font-family: 'Poppins', sans-serif;
 .color_white h1 {
     color: white;
     /* font-size: 19px; */
+       display:inline-block;
 }
 
 .color_white p {
