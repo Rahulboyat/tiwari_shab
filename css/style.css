@@ -134,6 +134,10 @@ font-family: 'Poppins', sans-serif;
     margin: 10px;
 }
 
+.sidebar_menu li:hover a{
+    color: #252B48;
+}
+
 .sidebar_menu li a {
     text-decoration: none;
     color: white;
