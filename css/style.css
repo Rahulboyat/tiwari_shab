@@ -44,6 +44,7 @@ font-family: 'Poppins', sans-serif;
 .logo img {
     width: 75px;
     height: auto;
+    filter:invert(2);
 }
 
 .menu_container ul li {
