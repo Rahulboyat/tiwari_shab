@@ -633,6 +633,39 @@ font-family: 'Poppins', sans-serif;
 }
 
 
+/* ------services style ------ */
+
+.services_plan {
+    position: absolute;
+    top:50px;
+    /* left: 0px; */
+    display: none;
+   
+}
+
+.services_plan ul{
+    margin-top: 22px;
+    background-color: #252B48;
+    padding: 5px 9px 9px 9px ;
+        /* margin-left:10px;
+        margin-right: 6px;
+        padding-bottom:6px ; */
+}
+
+.services_plan ul li {
+    margin: 8px 0px;
+}
+
+.services_plan ul li a{
+    font-size: 15px;
+}
+
+.menu_container ul li:hover .services_plan{
+    display: block;
+}
+
+
+
 
 
 
