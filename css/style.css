@@ -709,6 +709,65 @@ font-weight: bold;
 
 
 
+.overlap_content {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlap_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlap_content form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlap_content form input {
+    margin: 6px 5px;
+    padding-left: 8px;
+    font-size: 14px;
+    height: 28px;
+    cursor:pointer;
+
+}
+
+.overlap_content form input::placeholder {
+    font-size: 14px;
+}
+
+#overlap_textaera {
+    margin: 6px 5px;
+    margin-top: 6px;
+    margin-left: 6px;
+    padding-left: 8px;
+}
+
+.modal-body {
+    z-index: 9999 !important;
+    position: absolute;
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.submit_btn{
+    cursor: pointer;
+    /* padding: 0px -6px; */
+    height: 35px;
+    width: 99px;
+    margin-left: 6px;
+}
+
+
 
 
 
