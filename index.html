@@ -400,14 +400,25 @@
   
 
   <script>
-
     $(document).ready(function () {
       new WOW().init({
         once: true,
         duration: 6000
       });
     })
+  </script>
 
+  <script>
+    $(document).ready(function () {
+      $("#myModal").modal('show');
+    });
+    $('.submit_btn').click(function () {
+      $("#myModal").modal('hide');
+    });
+    $('.close').click(function () {
+      //alert('d')
+      $("#myModal").modal('hide');
+    });
   </script>
 
   <script>
