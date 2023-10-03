@@ -73,36 +73,33 @@
                 <li><a href="services.html">Services</a></li>
             </ul>
         </div>
-
-
-         <div id="myModal" class="modal fade mt-5">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <!-- <div class="modal-header">
-          <h5 class="modal-title">Subscribe our Newsletter</h5>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div> -->
-        <div class="modal-body">
-          <section class="overlap_section">
-            <div class="overlap_content ">
-              <form action="https://formspree.io/f/xoqokorv" method="post" id="contect">
-                <input type="text" name="name" id="f_name" placeholder="NAME" required>
-                <input type="email" name="email" id="email" placeholder="EMAIL" required>
-                <input type="tel" name="phone" id="phone" placeholder="PHONE" required>
-                <textarea id="overlap_textaera" cols="10" rows="6" placeholder="Comment Plz"></textarea>
-
-                <button type="submit" class="submit_btn text-center">Submit</button>
-              </form>
-            </div>  
-          </section>
-
-        </div>
-      </div>
     </div>
-  </div>
+
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            
+            <div class="modal-body">
+              <section class="overlap_section">
+                <div class="overlap_content ">
+                  <form action="">
+                    <input type="text" name="name" id="f_name" placeholder="NAME" required>
+                    <input type="email" name="email" id="email" placeholder="EMAIL" required>
+                    <input type="tel" name="phone" id="phone" placeholder="PHONE" required>
+                    <textarea id="overlap_textaera" cols="19" rows="10" placeholder="Comment Plz"></textarea>
+    
+                    <button class="submit_btn text-center">Submit</button>
+                  </form>
+                </div>
+              </section>
+    
+            </div>
+          </div>
+        </div>
+      </div>>
+      </div>
 
 
-   
     <div class="service_slider mt-5 pt-4">
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner service_slid">
@@ -136,7 +133,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-lg-4">
-                        <div class="base_plan_content b_plan ">
+                        <div class="base_plan_content b_plan wow animate__animated animate__zoomIn">
                             <h3>Interior Rendering </h3>
                          <p>this is a detailed and realistic representation of the interior spaces of the building, including rooms, furniture, lighting, and finishes such as flooring and wall treatments. Interior rendering allows designers to visualize how the space will look and feel, and make adjustments to ensure that the space is functional and visually appealing.</p>
                         </div>
@@ -144,7 +141,7 @@
                     </div>
 
                     <div class="col-md-4 col-lg-4">
-                        <div class="Side_Elevation_content b_plan">
+                        <div class="Side_Elevation_content b_plan wow animate__animated animate__zoomIn">
                             <h3>Exterior Rendering
                             </h3>
                             <p>This is a detailed and realistic representation of the building's exterior, including materials, colors, textures, and lighting. Exterior rendering allows designers to visualize how the building will look from the outside, and make adjustments to ensure that the building is visually appealing and fits within its surrounding environment.</p>
@@ -153,7 +150,7 @@
                     </div>
 
                     <div class="col-md-4 col-lg-4 ">
-                        <div class="Front_elevation_content b_plan">
+                        <div class="Front_elevation_content b_plan wow animate__animated animate__zoomIn">
                             <h3>Landscape Plan</h3>
                             <p>This is a detailed plan that shows the landscaping and site features of the building, including trees, shrubs, gardens, and other outdoor elements. A landscape plan is important because it helps to create a cohesive and visually appealing outdoor space that complements the building's design.</p>
                         </div>
@@ -176,26 +173,22 @@
       </section>
 
 
-   <section class="footer_section pt-5 pb-5 mt-3 mb-3">
-    <div class="container d-flex justify-content-center">
-      <div class="footer_center text-center">
-        <div class="footer_icon mb-3">
-          <a href="https://www.linkedin.com/company/house-of-dreamsinfo"> <span><i
-                class="fa-brands fa-linkedin-in"></i></span></a>
-          <a href="https://instagram.com/houseofdreams.hod?igshid=NzZlODBkYWE4Ng=="> <span><i
-                class="fa-brands fa-square-instagram"></i></span></a>
-<!--           <a href=""> <span> <i class="fa-brands fa-facebook"></i></span></a> -->
-          <a href="https://twitter.com/HouseofDreams99?t=sXKOGz53P-EmvZT-oW15CA&s=09"> <span><i
-                class="fa-brands fa-twitter"></i></span></a>
-
+    <section class="footer_section pt-5 pb-5 mt-3 mb-3">
+        <div class="container d-flex justify-content-center">
+          <div class="footer_center text-center">
+            <div class="footer_icon mb-3">
+              <span><i class="fa-brands fa-linkedin-in"></i></span>
+              <span> <i class="fa-brands fa-instagram"></i> </span>
+              <span> <i class="fa-brands fa-facebook"></i></span>
+              <span><i class="fa-brands fa-twitter"></i></span>
+            </div>
+            <h5>Where imagination meets reality</h5>
+            <h5>houseofddream999@gmail.com </h5>
+            <h5>+91 8499903166 , 8938934294</h5>
+            <h5>jaipur rajasthan, 302026</h5>
+          </div>
         </div>
-        <h5>Where imagination meets reality</h5>
-        <h5>houseofddream999@gmail.com </h5>
-        <h5>+91 8499903166 , 8938934294</h5>
-        <h5>jaipur rajasthan, 302026</h5>
-      </div>
-    </div>
-  </section>
+      </section>
     
 
 
@@ -218,17 +211,15 @@
 
 
     <script>
-
         $(document).ready(function () {
             new WOW().init({
                 once: true,
                 duration: 6000
             });
         })
-
     </script>
 
-    <script>
+<script>
     $(document).ready(function () {
       $("#myModal").modal('show');
     });
@@ -240,7 +231,7 @@
       $("#myModal").modal('hide');
     });
   </script>
-    
+
 
     <script>
         $(document).ready(function () {
