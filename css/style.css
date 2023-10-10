@@ -246,7 +246,11 @@
     color: orange;
 }
 
-.about_img img{
+.about_text .btn {
+    /* border: 1px solid orange; */
+}
+
+.about_img img {
     animation: zoomin_out 6s infinite
 }
 
@@ -263,10 +267,6 @@
     100% {
         transform: scale(0.9);
     }
-}
-
-.about_text .btn {
-    /* border: 1px solid orange; */
 }
 
 .about_text .btn:hover {
@@ -544,15 +544,15 @@
     padding: 50px auto;
 }
 
-.color_white h1 {
+.color_white h {
     color: white;
-    /* font-size: 22px; */
+    font-size: 44px;
     display: inline-block;
 }
 
 .color_white p {
     color: white;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 
@@ -688,7 +688,7 @@
     height: 550px;
 }
 
-.base_plan_box .b_plan{
+.base_plan_box .b_plan {
     text-align: center;
     border: 1px solid #252B48;
     padding: 10px 15px;
@@ -696,17 +696,16 @@
     transition: all 0.3s linear;
 }
 
-.base_plan_box .b_plan:hover{
+.base_plan_box .b_plan:hover {
     background-color: #252B48;
     color: white;
 }
 
 
-.font_big{
+.font_big {
     font-size: 42px;
-font-weight: bold;
+    font-weight: bold;
 }
-
 
 .modal-content{
     width: 65% !important;
@@ -742,12 +741,10 @@ font-weight: bold;
     margin-left: 6px;
 }
 
-
-
-
 .overlap_content {
     max-width: 100%;
-    width: 100%;
+    /* width:100%; */
+    /* border: 1px solid red; */
     display: flex;
     padding: 10px 15px;
     justify-content: center;
@@ -758,6 +755,7 @@ font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 25px;
 }
 
 .overlap_content form {
@@ -770,9 +768,8 @@ font-weight: bold;
     margin: 6px 5px;
     padding-left: 8px;
     font-size: 14px;
-    height: 28px;
+    height: 24px;
     cursor:pointer;
-
 }
 
 .overlap_content form input::placeholder {
@@ -785,10 +782,6 @@ font-weight: bold;
     margin-left: 6px;
     padding-left: 8px;
 }
-
-
-
-
 
 
 
