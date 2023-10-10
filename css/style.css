@@ -789,7 +789,16 @@
 
 
 
+@media only screen and (max-width: 426px){
 
+    .color_white p {
+        font-size: 12px!important;
+    }
+
+    .color_white h{
+        font-size: 25px!important;
+    }
+}
 
 
 
